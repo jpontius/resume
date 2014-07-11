@@ -1,15 +1,9 @@
-<script type='text/javascript'>
+<object data='https://github.com/jpontius/resume/blob/master/curriculum-vitae.pdf' 
+        type='application/pdf' 
+        width='100%' 
+        height='100%'>
 
-  function embedPDF(){
+<p>It appears your Web browser is not configured to display PDF files. 
+No worries, just <a href='https://github.com/jpontius/resume/blob/master/curriculum-vitae.pdf'>click here to download the PDF file.</a></p>
 
-    var myPDF = new PDFObject({ 
-
-      url: 'https://github.com/jpontius/resume/blob/master/curriculum-vitae.pdf'
-
-    }).embed();  
-
-  }
-
-  window.onload = embedPDF; //Feel free to replace window.onload if needed.
-
-</script>
+</object>
