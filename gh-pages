@@ -1,0 +1,15 @@
+<script type='text/javascript'>
+
+  function embedPDF(){
+
+    var myPDF = new PDFObject({ 
+
+      url: 'https://github.com/jpontius/resume/blob/master/curriculum-vitae.pdf'
+
+    }).embed();  
+
+  }
+
+  window.onload = embedPDF; //Feel free to replace window.onload if needed.
+
+</script>
